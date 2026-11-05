@@ -22,8 +22,8 @@
   ],
   "hero": {
     "file": "images/hero.png",
-    "alt": "A Qlik sheet with the docs reader listing the installed Tallmaker products and their docs versions.",
-    "caption": "The installed Tallmaker products and their docs, on one sheet"
+    "alt": "The docs reader index listing Tm Docs Reader and Tm Headline Cards, each with its docs version.",
+    "caption": "The installed Tallmaker products and their docs versions"
   },
   "screenshots": [
     {
@@ -39,12 +39,6 @@
   ],
   "featureStrips": [
     {
-      "heading": "Every installed product in one index",
-      "text": "The reader finds the Tallmaker extensions installed on your tenant that ship docs, and lists each with its docs version.",
-      "image": "images/index.png",
-      "alt": "The installed products index with Tm Docs Reader and its docs version badge."
-    },
-    {
       "heading": "Docs that match the installed version",
       "text": "Each extension ships its docs inside its own zip, so the reader always shows the docs of the version you run. No archive, no drift.",
       "image": "images/contents.png",
@@ -54,7 +48,7 @@
       "heading": "Readable pages",
       "text": "Headings, lists, code and links, drawn as plain text by the reader. Previous and Next walk the pages in order.",
       "image": "images/page.png",
-      "alt": "A docs page with a code block and Previous and Next links."
+      "alt": "The Settings page with headings, bold text and inline code, and Previous and Next links."
     },
     {
       "heading": "Search across products",
