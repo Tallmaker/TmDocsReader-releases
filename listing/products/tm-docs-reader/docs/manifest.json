@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "product": "tm-docs-reader",
+  "languages": ["en"],
+  "default": "en",
+  "pages": [
+    {
+      "slug": "getting-started"
+    },
+    {
+      "slug": "settings"
+    },
+    {
+      "slug": "help-links"
+    },
+    {
+      "slug": "good-to-know"
+    }
+  ]
+}

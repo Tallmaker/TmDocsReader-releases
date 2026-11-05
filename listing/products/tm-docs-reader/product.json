@@ -1,0 +1,78 @@
+{
+  "name": "Tm Docs Reader",
+  "pitch": "The docs of your installed Tallmaker extensions, inside the app: an index, contents, pages and search. Free.",
+  "question": "How do I use this Tallmaker extension, in the version we run?",
+  "questions": [
+    "Which Tallmaker extensions are installed, and which docs version do they ship?",
+    "Where is the setting that changes this chart?",
+    "Can a demo app carry the help for its own extension?"
+  ],
+  "useWhen": "Help for installed Tallmaker extensions, inside Qlik.",
+  "audience": "App authors and users of Tallmaker extensions who want help next to the sheet.",
+  "purposes": [
+    "help"
+  ],
+  "features": [
+    "Lists installed Tallmaker products with docs",
+    "Docs always match the installed version",
+    "Contents, pages and search across products",
+    "Lock to one product for a help sheet",
+    "Open at a start page",
+    "Free, no licence needed"
+  ],
+  "hero": {
+    "file": "images/hero.png",
+    "alt": "A Qlik sheet with two docs readers: an index of installed products, and a reader locked to one product open at its settings page.",
+    "caption": "All installed products on the left, one product's help on the right"
+  },
+  "screenshots": [
+    {
+      "file": "images/getting-started.png",
+      "alt": "The Getting started page: what the reader shows, how to add it and how to read the docs.",
+      "caption": "Getting started, read inside the app"
+    },
+    {
+      "file": "images/good-to-know.png",
+      "alt": "The Good to know page: installed version only, products without docs, where the reader works.",
+      "caption": "What the reader shows, and where it works"
+    }
+  ],
+  "featureStrips": [
+    {
+      "heading": "Every installed product in one index",
+      "text": "The reader finds the Tallmaker extensions installed on your tenant that ship docs, and lists each with its docs version.",
+      "image": "images/index.png",
+      "alt": "The installed products index with Tm Docs Reader and its docs version badge."
+    },
+    {
+      "heading": "Docs that match the installed version",
+      "text": "Each extension ships its docs inside its own zip, so the reader always shows the docs of the version you run. No archive, no drift.",
+      "image": "images/contents.png",
+      "alt": "A product's contents with the badge Docs for version 0.1.0."
+    },
+    {
+      "heading": "Readable pages",
+      "text": "Headings, lists, code and links, drawn as plain text by the reader. Previous and Next walk the pages in order.",
+      "image": "images/page.png",
+      "alt": "A docs page with a code block and Previous and Next links."
+    },
+    {
+      "heading": "Search across products",
+      "text": "Type a word to find the pages that hold it, in every installed product, or in the locked product only.",
+      "image": "images/search.png",
+      "alt": "Search results with two pages and their product name."
+    },
+    {
+      "heading": "A help sheet for one product",
+      "text": "Lock the reader to one product and it skips the index and opens that product. Set a start page to open the right page first.",
+      "image": "images/locked.png",
+      "alt": "A reader locked to Tm Docs Reader, open at its Settings page."
+    },
+    {
+      "heading": "Opens from an extension's Help",
+      "text": "An extension's Help action can move to the reader's sheet and open the right page. Nothing is written to the app.",
+      "image": "images/help-link.png",
+      "alt": "The docs page that explains how an extension opens the reader at a page."
+    }
+  ]
+}
