@@ -22,8 +22,8 @@
   ],
   "hero": {
     "file": "images/hero.png",
-    "alt": "A Qlik sheet with two docs readers: an index of installed products, and a reader locked to one product open at its settings page.",
-    "caption": "All installed products on the left, one product's help on the right"
+    "alt": "A Qlik sheet with the docs reader listing the installed Tallmaker products and their docs versions.",
+    "caption": "The installed Tallmaker products and their docs, on one sheet"
   },
   "screenshots": [
     {
@@ -61,12 +61,6 @@
       "text": "Type a word to find the pages that hold it, in every installed product, or in the locked product only.",
       "image": "images/search.png",
       "alt": "Search results with two pages and their product name."
-    },
-    {
-      "heading": "A help sheet for one product",
-      "text": "Lock the reader to one product and it skips the index and opens that product. Set a start page to open the right page first.",
-      "image": "images/locked.png",
-      "alt": "A reader locked to Tm Docs Reader, open at its Settings page."
     },
     {
       "heading": "Opens from an extension's Help",
