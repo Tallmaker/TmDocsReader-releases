@@ -5,16 +5,19 @@
   "default": "en",
   "pages": [
     {
+      "slug": "overview"
+    },
+    {
+      "slug": "when-to-use"
+    },
+    {
       "slug": "getting-started"
     },
     {
       "slug": "settings"
     },
     {
-      "slug": "help-links"
-    },
-    {
-      "slug": "good-to-know"
+      "slug": "tips"
     }
   ]
 }

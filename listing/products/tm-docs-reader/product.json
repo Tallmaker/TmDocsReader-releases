@@ -22,45 +22,39 @@
   ],
   "hero": {
     "file": "images/hero.png",
-    "alt": "The docs reader index listing Tm Docs Reader and Tm Headline Cards, each with its docs version.",
+    "alt": "The reader with the product tree on the left and the installed Tallmaker products with their docs versions on the right.",
     "caption": "The installed Tallmaker products and their docs versions"
   },
   "screenshots": [
     {
       "file": "images/getting-started.png",
-      "alt": "The Getting started page: what the reader shows, how to add it and how to read the docs.",
-      "caption": "Getting started, read inside the app"
+      "alt": "The Getting started page of Tm Docs Reader, open on the right with the product tree on the left.",
+      "caption": "Read the guide with the index always in view"
     },
     {
-      "file": "images/good-to-know.png",
-      "alt": "The Good to know page: installed version only, products without docs, where the reader works.",
-      "caption": "What the reader shows, and where it works"
+      "file": "images/when-to-use.png",
+      "alt": "The When to use page of Tm Docs Reader listing good and poor fits, with an On this page list.",
+      "caption": "Pages say when an extension is a good fit"
     }
   ],
   "featureStrips": [
     {
       "heading": "Docs that match the installed version",
-      "text": "Each extension ships its docs inside its own zip, so the reader always shows the docs of the version you run. No archive, no drift.",
-      "image": "images/contents.png",
-      "alt": "A product's contents with the badge Docs for version 0.1.0."
+      "text": "Each extension ships its docs inside its own zip, so the reader shows the docs of the version you run. No archive, no drift.",
+      "image": "images/versions.png",
+      "alt": "The Overview page of Tm Docs Reader with the badge Docs for version 0.1.1."
     },
     {
-      "heading": "Readable pages",
-      "text": "Headings, lists, code and links, drawn as plain text by the reader. Previous and Next walk the pages in order.",
+      "heading": "The index stays open beside the text",
+      "text": "Pick a product and a page in the tree on the left. The text opens on the right, with On this page links and Previous and Next.",
       "image": "images/page.png",
-      "alt": "The Settings page with headings, bold text and inline code, and Previous and Next links."
+      "alt": "The Settings page open on the right, with the tree of products and pages on the left."
     },
     {
-      "heading": "Search across products",
-      "text": "Type a word to find the pages that hold it, in every installed product, or in the locked product only.",
+      "heading": "Search across every installed product",
+      "text": "Type a word to find the pages that hold it, in every product with docs, or only in the product you locked the reader to.",
       "image": "images/search.png",
-      "alt": "Search results with two pages and their product name."
-    },
-    {
-      "heading": "Opens from an extension's Help",
-      "text": "An extension's Help action can move to the reader's sheet and open the right page. Nothing is written to the app.",
-      "image": "images/help-link.png",
-      "alt": "The docs page that explains how an extension opens the reader at a page."
+      "alt": "Search results for tooltip listing pages from several products, with their snippets."
     }
   ]
 }

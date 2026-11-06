@@ -2,20 +2,21 @@
 title: Getting started
 ---
 
-## What the reader shows
+## Add the reader to a sheet
 
-Tm Docs Reader shows the docs of the Tallmaker extensions that are installed on your tenant. Each extension ships its own docs, so the reader always shows the docs for the version you have installed.
+1. Open your Qlik Sense app and open a sheet in edit mode.
+2. Find **Tm Docs Reader** among the custom objects and drag it onto the sheet.
+3. Give it enough space to read a page comfortably, for example the full sheet.
+4. Leave **Product** set to **All installed products** and **Start page** empty.
+5. Leave edit mode. You should see the installed Tallmaker products that include docs, including Tm Docs Reader.
 
-## Add the reader
+No dimensions or measures are needed. Pick **Tm Docs Reader**: it opens at its first page, and its pages are listed on the left. Use **Search** to find a topic across installed products, and select a result to read the page.
 
-1. Open a sheet in edit mode.
-2. Drag **Tm Docs Reader** from the custom objects to the sheet. Give it a large area, for example the full sheet.
-3. Leave edit mode. The reader lists the installed products that ship docs.
+## Example: a help sheet that opens these settings
 
-## Read the docs
+1. Return to edit mode and select the reader.
+2. Under **Docs reader**, set **Product** to **Tm Docs Reader**.
+3. In **Start page (product/page)**, type `tm-docs-reader/settings`.
+4. Leave edit mode. The reader should open its **Settings** page and show only its own docs. Search is also limited to this product.
 
-- Pick a product to see its contents, then pick a page.
-- Each page shows the docs version, which is the installed version of the extension.
-- Use **Search** to find pages across all installed products.
-
-See [settings](settings.md) to lock the reader to one product.
+To return to browsing all products, choose **All installed products** and clear **Start page**. See [Settings](settings.md) for the available choices, or [Tips](tips.md) if the expected docs do not appear.
