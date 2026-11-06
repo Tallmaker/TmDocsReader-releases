@@ -55,6 +55,12 @@
       "text": "Type a word to find the pages that hold it, in every product with docs, or only in the product you locked the reader to.",
       "image": "images/search.png",
       "alt": "Search results for tooltip listing pages from several products, with their snippets."
+    },
+    {
+      "heading": "Help for common problems, in the app",
+      "text": "A Tips page answers the usual questions: a missing product, a search with no hits, the wrong opening page.",
+      "image": "images/tips.png",
+      "alt": "The Tips page of Tm Docs Reader with common problems and an On this page list."
     }
   ]
 }
